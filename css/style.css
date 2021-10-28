@@ -1,4 +1,5 @@
 @import url(section-categories.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* reset CSS */
 html, body, div, span, applet, object, iframe,
@@ -44,5 +45,28 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* end of reset CSS */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
