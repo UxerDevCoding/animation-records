@@ -3,4 +3,10 @@
     justify-content: center;
     margin: 85px 0px 85px 0px;
     }
+
+.responsive {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
    
