@@ -1,0 +1,8 @@
+#section-categories {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.categories {
+    border-radius: 20px;
+}
