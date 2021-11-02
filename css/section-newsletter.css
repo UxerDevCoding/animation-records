@@ -1,0 +1,29 @@
+#section-newsletter {
+    background: #FF6D1C;
+    padding: 30px;
+}
+
+#newsletter-txt h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#newsletter-action-wrap {
+    margin: 25px auto 10px;
+    text-align: center;
+}
+
+#newsletter-email, #newsletter-btn {
+    border: none;
+    box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 25%);
+    font-size: 18px;
+    padding: 20px;
+}
+
+#newsletter-btn {
+    background: #488B49;
+    color: #fff;
+    font-weight: bold;
+    margin-left: -4px;
+}
