@@ -1,9 +1,18 @@
 footer {
     background: #D3F9B5;
 	text-align: right;
-	padding: 20px 40px;
 	width: 100%;
 }
+
+footer div {
+	padding: 20px 40px;
+}
+
 footer a, footer a:visited {
 	color: #488B49;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
 }
