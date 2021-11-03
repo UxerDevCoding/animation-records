@@ -1,3 +1,9 @@
+header h1 {
+	color: #FF6D1C;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 25px;
+}
+
 #menu-and-cart {
     display: flex;
     align-items: center;

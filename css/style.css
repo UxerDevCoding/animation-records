@@ -1,10 +1,6 @@
 @import url(imports.css);
 
-<<<<<<< HEAD
-/* reset CSS */
-=======
 /* CSS reset */
->>>>>>> header
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,33 +21,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-<<<<<<< HEAD
-=======
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
->>>>>>> header
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-<<<<<<< HEAD
-ol, ul {
-	list-style: none;
-}
-=======
-
 a {
 	text-decoration: none;
 }
@@ -62,7 +45,6 @@ ol, ul {
 li {
 	list-style: none;
 }
->>>>>>> header
 blockquote, q {
 	quotes: none;
 }
@@ -75,8 +57,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-<<<<<<< HEAD
-/* end of reset CSS */
+/* end CSS reset */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -88,10 +70,6 @@ main {
 
 section {
 	margin: 120px auto;
-}
-
-a {
-    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -109,12 +87,4 @@ h2 {
 
 h3 {
     font-size: 25px;
-=======
-/* end CSS reset */
-
-h1 {
-	color: #FF6D1C;
-	font-family: 'Press Start 2P', sans-serif;
-	font-size: 25px;
->>>>>>> header
 }
