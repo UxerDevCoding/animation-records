@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem 1rem 3rem;
+    padding: 1em 4em 1em 3em;
 }
 
 .nav-logo {
@@ -16,7 +16,7 @@
     align-items: center;
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 5em;
     flex-direction: column;
     background-color: #FF6D1C;
     width: 100%;
@@ -27,7 +27,7 @@
 
 .nav-menu.active {
     left: 0;
-    top: 123.6px;
+    top: 200px;
 }
 
 .nav-item:first-child {
@@ -39,23 +39,19 @@
 }
 
 .nav-link{
-    font-size: 1.6rem;
+    font-size: 1.2em;
     font-weight: 400;
     color: #fff;
 }
 
 .nav-link:hover{
-    color: #D3F9B5;
+    text-shadow: 2px 2px 6px black;
 }
 
 .hamburger {
     display: block;
     cursor: pointer;
     padding: 12px 2px;
-}
-
-.hamburger.active .menu-bars {
-    opacity: 0;
 }
 
 .menu-bars {
