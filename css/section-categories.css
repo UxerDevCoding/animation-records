@@ -10,6 +10,7 @@
 #categories-container {
     display: grid;
     grid-template-columns: 315px 315px 315px;
+    margin-top: 20px;
 }
 
 .categories {

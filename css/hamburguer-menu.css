@@ -10,10 +10,6 @@
     align-items: center;
 }
 
-a.nav-logo h1 {
-    padding-left: 20px;
-}
-
 .nav-menu {
     display: flex;
     justify-content: space-between;
