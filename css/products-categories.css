@@ -7,22 +7,22 @@
     padding: 20px 50px;
 }
 
-#section-novedades-container {
+#section-novedades-container, #section-pelis-container, #section-series-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 25px 0;
 }
 
-#section-novedades-container img {
+#section-novedades-container img, #section-pelis-container img, #section-series-container img {
     max-width: 150px;
     border-radius: 20px;
 }
 
-#section-novedades-container p {
+#section-novedades-container p, #section-pelis-container p, #section-series-container p {
     text-transform: capitalize;
 }
 
-#section-novedades-container div {
+#section-novedades-container div, #section-pelis-container div, #section-series-container div {
     display: flex;
     align-items: center;
     justify-content: center;
