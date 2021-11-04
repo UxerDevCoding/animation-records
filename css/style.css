@@ -62,10 +62,10 @@ p {
     margin: 12px 0;
 }
 
-p b {
+.Price {
     font-family: "Press Start 2P", cursive;
     font-size: 0.9em;
-
+    color: #488B49;
 }
 
 #baseline {
