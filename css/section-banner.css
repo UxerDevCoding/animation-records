@@ -13,3 +13,12 @@ section#section-banner a {
     font-weight: bold;
     padding: 20px;
 }
+
+#section-banner-productos {
+    background: url(../assets/products-banner.png) no-repeat;
+    height: 243px;
+    max-width: 915px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
