@@ -1,7 +1,7 @@
-#section-banner {
+#home #section-banner {
     background: url(../assets/Home-Banner.png) no-repeat;
     height: 243px;
-    max-width: 915px;
+    margin: 80px 0 0 0;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -17,7 +17,6 @@ section#section-banner a {
 #section-banner-products {
     background: url(../assets/products-banner.png) no-repeat;
     height: 243px;
-    max-width: 915px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;

@@ -6,8 +6,9 @@
 }
 
 #section-ra-container img {
-    max-width: 150px;
     border-radius: 20px;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 #section-ra-container p {
@@ -16,4 +17,46 @@
 
 #section-ra-container div {
     grid-template-columns: fit-content(100%);
+}
+
+#product-information img {
+    border-radius: 20px;
+    max-width: 60%;
+}
+
+#product-information aside {
+    float: right;
+    margin: 0 20px;
+    max-width: 30%;
+}
+
+#product-information aside h3 {
+    color: #488b49;
+}
+
+#product-information aside a {
+    color: #488b49;
+    font-size: 0.9em;
+    margin: 50px 50px 50px 0;
+}
+
+#product-information aside p.price {
+    color: #488b49;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.6em;
+    font-weight: lighter;
+    margin: 1.85em 0;
+}
+
+#product-information aside button {
+    background: #ff6d1c;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px;
+    width: 100%;
 }
