@@ -3,10 +3,6 @@
     border-top: 4px dashed #FF6D1C;
 }
 
-#section-categories h2 {
-    color: #FF6D1C;
-}
-
 #categories-container {
     display: grid;
     grid-template-columns: 315px 315px 315px;

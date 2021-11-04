@@ -44,7 +44,8 @@ h1 {
 
 h2 {
     font-size: 26px;
-	border-bottom: 2px dashed;
+	border-bottom: 2px dashed #FF6D1C;
+    color: #FF6D1C;
 	margin: 0 15px;
 	padding-bottom: 15px;
 }

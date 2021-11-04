@@ -1,0 +1,28 @@
+#section-banner-products a {
+    background: #FF6D1C;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 50px;
+}
+
+#section-novedades-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#section-novedades-container img {
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+#section-novedades-container p {
+    text-transform: capitalize;
+}
+
+#section-novedades-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
