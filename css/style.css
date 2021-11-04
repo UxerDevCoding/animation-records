@@ -46,7 +46,7 @@ h2 {
     font-size: 26px;
 	border-bottom: 2px dashed #FF6D1C;
     color: #FF6D1C;
-	margin: 0 15px;
+	margin: 80px 15px 0px 15px;
 	padding-bottom: 15px;
 }
 
@@ -67,7 +67,7 @@ p {
     font-size: 1em;
     font-weight: bold;
     color: black;
-    margin: 12px 0;
+    margin: 12px 0 0 0;
 }
 
 b {
@@ -78,8 +78,20 @@ b {
 
 #baseline {
 	border-bottom: 2px dashed #FF6D1C;
-	margin: 0 15px;
+    margin: 0 15px 50px 15px;
     padding-bottom: 10px;
 }
 
+#breadcrumbs {
+    margin: 40px auto;
+    width: 915px;
+}
 
+#breadcrumbs a, #breadcrumbs a:active, #breadcrumbs a:visited {
+    color: #696d7d;
+    font-size: 0.9em;
+}
+
+#breadcrumbs a:last-child {
+    color: black;
+}

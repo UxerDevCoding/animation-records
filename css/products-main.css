@@ -1,10 +1,14 @@
+#section-banner-products {
+    margin: 35px auto 0 auto;
+}
+
 #section-banner-products a {
     background: #FF6D1C;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 1.6em;
     font-weight: bold;
-    padding: 20px 50px;
+    padding: 16px 40px;
 }
 
 #section-novedades-container, #section-pelis-container, #section-series-container {
@@ -25,4 +29,22 @@
 
 #section-novedades-container div, #section-pelis-container div, #section-series-container div {
     grid-template-columns: fit-content(100%);
+}
+
+section .product-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+section .products-name {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+section .products-price {
+    color: #488b49;
+    font-family: 'Press Start 2P';
 }
