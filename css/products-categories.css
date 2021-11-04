@@ -10,7 +10,8 @@
 #section-novedades-container, #section-pelis-container, #section-series-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 25px 0;
+    margin: 25px 12px;
+    justify-content: space-between;
 }
 
 #section-novedades-container img, #section-pelis-container img, #section-series-container img {
@@ -23,7 +24,5 @@
 }
 
 #section-novedades-container div, #section-pelis-container div, #section-series-container div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: fit-content(100%);
 }

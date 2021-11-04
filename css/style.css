@@ -54,8 +54,23 @@ h3 {
     font-size: 25px;
 }
 
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    margin: 12px 0;
+}
+
+p b {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.9em;
+
+}
+
 #baseline {
 	border-bottom: 2px dashed #FF6D1C;
 	margin: 0 15px;
     padding-bottom: 10px;
 }
+
