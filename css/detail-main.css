@@ -1,4 +1,4 @@
-#section-related-articles {
+#section-ra-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 25px 12px;
