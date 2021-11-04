@@ -1,0 +1,19 @@
+#section-related-articles {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 25px 12px;
+    justify-content: space-between;
+}
+
+#section-ra-container img {
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+#section-ra-container p {
+    text-transform: capitalize;
+}
+
+#section-ra-container div {
+    grid-template-columns: fit-content(100%);
+}
